@@ -1,5 +1,7 @@
 # DescriptiveStats
-A small command line utility to quickly generate basic descriptive stats from stdin
+A small command line utility to quickly generate basic descriptive stats from stdin.  Use it as a filter with pipes, or read a file with\
+
+$ ./ds < input
 
 
 **USAGE:** 
@@ -66,7 +68,7 @@ third quartile: 76\
 max: 100\
 sum: 5050\
 variance: 833.25\
-standard deviation: 28.8661\
+standard deviation: 28.8661
 
 ## EXAMPLE - Print the median without the verbose label
 
