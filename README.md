@@ -2,13 +2,13 @@
 A small command line utility to quickly generate basic descriptive stats from stdin
 
 
-USAGE: 
+**USAGE: 
 
    ./ds  [-e] [-V] [-s] [-M] [-t] [-A] [-a] [-f] [-m] [-w] [-v] [--]
          [--version] [-h]
 
 
-Where: 
+**Where: 
 
    -e,  --standard-deviation
      Print standard deviation
@@ -55,7 +55,7 @@ Where:
 
    Descriptive Stats Tool
    
-EXAMPLE - Print all stats from a sequence of inputs\
+## EXAMPLE - Print all stats from a sequence of inputs\
 
 $ seq 1 100 | ./ds -wv\
 min: 1\
@@ -68,7 +68,7 @@ sum: 5050\
 variance: 833.25\
 standard deviation: 28.8661\
 
-EXAMPLE - Print the median without the verbose label\
+## EXAMPLE - Print the median without the verbose label\
 
 $ seq 1 11 | ./ds -A\
 6
