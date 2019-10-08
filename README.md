@@ -55,19 +55,20 @@ Where:
 
    Descriptive Stats Tool
    
-EXAMPLE - Print all stats from a sequence of inputs
+EXAMPLE - Print all stats from a sequence of inputs\
 
-$ seq 1 100 | ./ds -wv
-min: 1
-first quartile: 26
-mean: 50.5
-median: 50.5
-third quartile: 76
-max: 100
-sum: 5050
-variance: 833.25
-standard deviation: 28.8661
+$ seq 1 100 | ./ds -wv\
+min: 1\
+first quartile: 26\
+mean: 50.5\
+median: 50.5\
+third quartile: 76\
+max: 100\
+sum: 5050\
+variance: 833.25\
+standard deviation: 28.8661\
 
-EXAMPLE - Print the median without the verbose label
-$ seq 1 11 | ./ds -A
+EXAMPLE - Print the median without the verbose label\
+
+$ seq 1 11 | ./ds -A\
 6
