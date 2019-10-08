@@ -7,7 +7,7 @@ OBJ:=src/descriptive_statistics.o main.o
 HEADER:=include/descriptive_statistics.hpp
 
 CXX:=g++
-CXXFLAGS:=-O3 -march=native -msse2 -mavx -fPIC
+CXXFLAGS:=-O3 -march=native -msse2 -mavx -fPIC -std=c++11
 CXXFLAGS+=-I./include -I/usr/include -I/usr/local/include
 LDFLAGS:=
 
